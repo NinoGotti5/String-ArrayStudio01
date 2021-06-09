@@ -21,7 +21,7 @@ console.log(`Im glad to have applied for ${str} !`);
 
 let answer = (Number(input.question("How many letters would you like to relocate? ")));
 
-let newEnd2 = str.slice (0,answer) ;str.slice(answer);
+let newEnd2 = str.slice (0,answer) 
 
 //c) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
 if (answer > 10) {
